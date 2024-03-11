@@ -8,12 +8,15 @@ setup(
     description="A module for processing Gmail messages.",
     long_description=open('README.md').read(),
     url="https://github.com/SokinjoNS/gmail-message-processor",
-    project_urls":{"Source":"https://github.com/SokinjoNS/gmail-message-processor"},
     packages=find_packages(),
     install_requires=[
         'gmail-api-auth>=0.1.2',
         'gmail-label-manager>=0.1.2',
     ],
+    project_urls={
+        "GitHub": "https://github.com/SokinjoNS/gmail-message-processor",
+        "Source": "https://github.com/SokinjoNS/gmail-message-processor"
+    },
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
