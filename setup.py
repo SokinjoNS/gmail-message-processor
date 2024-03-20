@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="gmail-message-processor",
-    version="0.1.2",
+    version="0.1.3",
     author="SokinjoNS",
     author_email="sokinjo.155@gmail.com",
     description="A module for processing Gmail messages.",
@@ -10,8 +10,8 @@ setup(
     url="https://github.com/SokinjoNS/gmail-message-processor",
     packages=find_packages(),
     install_requires=[
-        'gmail-api-auth>=0.1.2',
-        'gmail-label-manager>=0.1.2',
+        'gmail-api-auth>=0.1.3',
+        'gmail-label-manager>=0.1.3',
     ],
     project_urls={
         "GitHub": "https://github.com/SokinjoNS/gmail-message-processor",
